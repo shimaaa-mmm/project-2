@@ -1,0 +1,110 @@
+.hosting-plans {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 170px;
+
+  .header-content {
+    text-align: center;
+    margin-bottom: 90px; /* مقدار فاصله پایین تکه کد جدید */
+  }
+  .title {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 52px;
+    color: #2e004b;
+  }
+  .pad {
+    margin-top: 10px;
+  }
+
+  .plans-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 86%;
+    margin-right: 198px;
+    margin-left: 95px;
+    gap: 6px;
+
+    .plan {
+      border: 1px solid #e0cce6;
+      border-radius: 5px;
+      padding: 29px 23px;
+      padding-right: 23px;
+      padding-left: 23px;
+      margin-bottom: 30px;
+      text-align: left;
+      transition: transform 0.3s ease-in-out;
+      width: 94%;
+      min-height: 1px;
+      padding-right: 18px;
+      padding-left: 15px;
+      &:hover {
+        transform: translateY(-10px);
+      }
+
+      .icon {
+        font-size: 50px;
+        margin-top: 26px;
+        margin-right: 184px;
+      }
+
+      h3 {
+        font-size: 24px;
+        font-weight: 500;
+        color: #2e004b;
+        margin-bottom: 13px;
+        margin-top: 16px;
+      }
+
+      p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 28px;
+        color: #919191;
+        margin-bottom: 13px;
+        font-family: "Roboto", sans-serif;
+      }
+
+      .price {
+        font-size: 14px;
+        line-height: 28px;
+        margin-top: 23px;
+        margin-bottom: 30px;
+
+        span {
+          color: #7d7d7d;
+        }
+
+        strong {
+          font-size: 24px;
+          font-weight: 600;
+          color: #2e004b;
+          padding-left: 10px;
+        }
+      }
+
+      .start-now {
+        cursor: pointer;
+        font-size: 16px;
+        color: #fff;
+        padding: 12px 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        border: 1px solid transparent;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        background: transparent;
+        color: #00d363;
+        border: 1px solid #00d363;
+        display: inline-block;
+
+        &:hover {
+          background-color: darken(#00d363, 10%);
+        }
+      }
+    }
+  }
+}

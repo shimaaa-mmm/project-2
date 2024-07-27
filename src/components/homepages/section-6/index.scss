@@ -1,0 +1,113 @@
+.latest_new_area {
+  padding-top: 200px;
+  padding-bottom: 170px;
+
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .col-xl-4,
+  .col-md-6,
+  .col-lg-4 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    @media (min-width: 1200px) {
+      flex: 0 0 33.3333%;
+      max-width: 33.3333%;
+    }
+
+    @media (max-width: 1199px) and (min-width: 992px) {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+    @media (max-width: 991px) {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+
+  .single_news {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 30px;
+    position: relative;
+
+    .thumb {
+      overflow: hidden;
+
+      a {
+        display: block;
+
+        img {
+          width: 100%;
+          height: auto;
+          display: block;
+          transition: transform 0.3s ease;
+        }
+      }
+    }
+
+    .news_content {
+      padding: 16px;
+      margin-left: -15px;
+      .news_meta {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 28px;
+
+        a {
+          color: #1f1f1f;
+          outline: medium none;
+          text-decoration: none;
+        }
+
+        span {
+          color: #00d363;
+        }
+      }
+
+      h3 {
+        font-size: 24px;
+        color: #2e004b;
+        margin-top: 5px;
+        margin-bottom: 17px;
+
+        a {
+          color: #2e004b;
+          text-decoration: none;
+          color: #2e004b;
+          text-decoration: none;
+        //   font-family: "Roboto", sans-serif;
+          font-weight: 600;
+          line-height: 1.2em;
+          font-size: 24px;
+        }
+      }
+
+      .news_info {
+        font-size: 16px;
+        color: #727272;
+      }
+    }
+  }
+
+  // Hover effect for image scaling
+  .single_news:hover .thumb a img {
+    transform: scale(1.2);
+  }
+}

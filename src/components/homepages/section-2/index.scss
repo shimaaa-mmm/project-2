@@ -1,0 +1,115 @@
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.core-features {
+  margin: 40px 0;
+}
+.core {
+  margin-left: 16px;
+}
+.features-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #efe5f2;
+    margin-bottom: 90px;
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+.features-nav {
+  display: flex;
+  margin-right: -2px;
+}
+
+.features-nav a {
+  margin-left: 15px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #666;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+}
+
+.features-nav a.active {
+  color: #000;
+  border-bottom: 2px solid #00d363;
+}
+
+.features-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 165px;
+  width: 100%;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  //   background: #f9f9f9;
+  border-radius: 10px;
+  //   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+    float: left;
+    width: 173px;
+    height: 90px;
+    background: #EFF7FF;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #0181F5;
+    text-align: center;
+    line-height: 88px;
+    font-weight: 700;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    margin-top: -17px;
+}
+.core-features .feature-item:hover .feature-icon{
+    color: #fff !important;
+  background: #886CFE !important;
+
+}
+
+.feature-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.feature-text h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #1f1f1f;
+  margin-bottom: 10px;
+  float: left;
+  margin-left: 0;
+  line-height: 1.2em;
+  font-family: "Roboto", sans-serif;
+}
+
+.feature-text p {
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #919191;
+  margin-bottom: 13px;
+  font-family: "Roboto", sans-serif;
+}

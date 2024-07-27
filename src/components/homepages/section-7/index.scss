@@ -1,0 +1,213 @@
+.lets_launch {
+  padding: 180px 0;
+  position: relative;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.launch_bg_1 {
+  background-image: url(/public/images/launch.png.webp);
+}
+.overlay2 {
+  position: relative;
+  z-index: 0;
+}
+.overlay2::before {
+  position: absolute;
+  content: "";
+  background-color: #2e004b;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.6;
+}
+.text-center {
+  text-align: center !important;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+.lets_launch .launch_text h3 {
+  font-size: 42px;
+  color: #ffffff;
+  line-height: 1.2em;
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2em;
+}
+.lets_launch .launch_text p {
+  font-size: 16px;
+  color: #fff;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 28px;
+  margin-bottom: 44px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #919191;
+  margin-bottom: 13px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #919191;
+  margin-bottom: 13px;
+  font-family: "Roboto", sans-serif;
+}
+.text-center {
+  text-align: center !important;
+}
+.lets_launch .launch_text .chat a {
+  margin: 0 10px;
+}
+.boxed_btn_green {
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  padding: 12px 30px;
+  background: #00d363;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  display: inline-block;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+a,
+button {
+  color: #1f1f1f;
+  outline: medium none;
+}
+.boxed_btn_green {
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+[class^="flaticon-"]::before,
+[class*=" flaticon-"]::before,
+[class^="flaticon-"]::after,
+[class*=" flaticon-"]::after {
+  font-family: Flaticon;
+  font-style: normal;
+}
+.lets_launch .launch_text .chat .boxed_btn_green2 {
+  color: #fff !important;
+  border-color: #fff !important;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 10px 40px;
+}
+.lets_launch .launch_text .chat a {
+  margin: 0 10px;
+}
+.boxed_btn_green2 {
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  padding: 12px 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  background: transparent;
+  color: #00d363;
+  border: 1px solid #00d363;
+  border-top-color: rgb(0, 211, 99);
+  border-right-color: rgb(0, 211, 99);
+  border-bottom-color: rgb(0, 211, 99);
+  border-left-color: rgb(0, 211, 99);
+  display: inline-block;
+}
+a,
+button {
+  color: #1f1f1f;
+  outline: medium none;
+}
+.lets_launch .launch_text .chat .boxed_btn_green2 {
+  color: #fff !important;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.lets_launch .launch_text .chat .boxed_btn_green2:hover {
+  border-color: #00d363 !important;
+}
+a:hover {
+  color: #0056b3;
+}
+.boxed_btn_green:hover {
+  background: transparent;
+  color: #00d363;
+  border: 1px solid #00d363;
+  color: #00d363 !important;
+}
+.boxed_btn_green:hover {
+  color: #00d363;
+  color: #00d363 !important;
+  text-decoration: none;
+}
+.lets_launch .launch_text .chat .boxed_btn_green2:hover {
+  border-color: #00d363 !important;
+}
+lets_launch .launch_text .chat .boxed_btn_green2:hover {
+  border-color: #00d363 !important;
+}
+.lets_launch .launch_text .chat .boxed_btn_green2 {
+  color: #fff !important;
+  border-color: #fff !important;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 10px 40px;
+}
+.lets_launch .launch_text .chat a {
+  margin: 0 10px;
+}
+.boxed_btn_green2:hover {
+  color: #fff !important;
+  background: #00d363;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+.lets_launch .launch_text .chat .boxed_btn_green2 {
+  color: #fff !important;
+  border-color: #fff !important;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 10px 40px;
+  text-decoration: none;
+}
+.chat .flaticon {
+  transition: color 0.3s ease;
+  margin-right: 8px;
+  font-size: 16px;
+  transition: color 0.3s ease; // انیمیشن تغییر رنگ
+
+  &:hover {
+    color: #00d363; // رنگ سبز هنگام هاور
+  }
+}
